@@ -2,4 +2,7 @@
 import './index.css';
 
 // import all dynamically exported components
-export default * from './dynamicExports';
+import * as dynamicExports from './dynamicExports';
+
+export default dynamicExports;
+
